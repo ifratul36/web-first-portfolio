@@ -8,6 +8,45 @@
 }
 
 /* style shared */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+ 
+}
+main{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.all-items{
+    border: 2px solid #181818;
+    background-color: white;
+    margin-bottom: 0 auto;
+    padding: 12px 17px;
+    height:350px ;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 131px;
+    /* border: 1px solid #181818; */
+}
+
+.item-description{
+    font-weight: 600;
+}
 .text-primary{
     color: #FD6E0A
 }
@@ -23,11 +62,27 @@
     border-radius: 5px;
     border: none;
 }
+.section-title{
+    font-size:35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-descrption{
+    font-size: 18px;
+    color: #757575;
+    padding: 8px 10px;
+}
+.text-center{
+    text-align: center;
+}
 /* header */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    width: 1565px;
+    height: 828px;
+    margin: 0 auto;
 }
 
 /* nav styles */
@@ -68,5 +123,61 @@ nav li a {
     font-size: 85px;
 }
 banner-profile-pic{
-    width: 580px;
+    width: 584px;
+    height: 676px;
 }
+/* skills style section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.10);
+}
+/* resume section style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    text-align: center;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description , .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin:30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-culunm{
+    width: 50%;
+}
+footer input[type="text"],footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.14);
+
+}
+
+
